@@ -15,8 +15,7 @@ body {
   overflow-x: hidden;
   font-family: Arial, sans-serif;
   font-family: "helvetica", sans-serif;
-    overflow-x: hidden;
-
+  overflow-x: hidden;
 }
 
 .container {
@@ -50,11 +49,16 @@ body {
 .name-container {
   text-align: center;
   margin: 20px;
+  z-index: 10;
 }
 
+.iam_container {
+  height: 20px;
+}
 .iam {
   display: inline-block;
-  font-size: 20px;
+  font-size: 21px;
+  height: 20px;
 }
 
 .text {
@@ -62,6 +66,8 @@ body {
   font-size: 20px;
   color: #dd3c4c;
   font-weight: bolder;
+  height: 20px;
+  /* height: 40px; */
 }
 
 #download_cv {
@@ -75,6 +81,7 @@ body {
   /* margin: 10px; */
   position: relative;
   margin-bottom: 50px;
+  z-index: 10;
 }
 
 #download_cv::after {
