@@ -157,3 +157,16 @@ document.querySelector(".grid-container").addEventListener("click", (e) => {
     window.location.href = "/available_soon.html";
   }
 });
+
+typing = new Typed(".text", {
+  strings: [
+    "",
+    "Full Stack Developer",
+    "Web Developer",
+    "App developer",
+    "Api Developer",
+  ],
+  typeSpeed: 100,
+  backSpeed: 40,
+  loop: true,
+});
