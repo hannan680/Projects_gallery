@@ -164,7 +164,7 @@ body {
 .footer {
   background-color: white;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 40px;
 }
 
 .grid-item-overlay {
@@ -209,16 +209,9 @@ body {
   font-size: 14px;
 }
 
-footer {
-  background-color: #333;
-  color: black;
-  padding: 40px 0;
-  margin-top: 100px;
-}
-
 .contact-details {
   max-width: 600px;
-  margin: 25px;
+  margin: auto;
   text-align: left;
 }
 .contact-details h3 {
